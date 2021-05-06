@@ -6,7 +6,7 @@ namespace Proof
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Le dimo to");
+            Console.WriteLine("klk wawawa");
         }
     }
 }
