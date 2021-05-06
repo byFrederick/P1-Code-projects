@@ -7,7 +7,7 @@ namespace Proof
         static void Main(string[] args)
         {
             Console.WriteLine("klk wawawa");
-            Console.WriteLine("Alta gama");
+            Console.WriteLine("Y que fue?, no hicicste na ");
         }
     }
 }
