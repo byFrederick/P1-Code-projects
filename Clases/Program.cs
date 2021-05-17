@@ -45,14 +45,14 @@ class potencia
     public potencia (int x, int y)
     {
         Console.WriteLine("Instancia creada");
-        this.x = x;
+        this.x = x;//Llamar miembros dentro de un metodo o constructor 
         this.y = y;
         double c = Math.Pow(this.x, this.y);
         Console.WriteLine("Resultado = " + c);
     }
     ~potencia()
     {
-        Console.WriteLine("Instancia eliminana");
+        Console.WriteLine("Instancia eliminada");
     }
 }
 class program
