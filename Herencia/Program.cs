@@ -1,7 +1,8 @@
 ﻿using System;
 
 
-/*class clasebase
+/*Ejemplo 1
+class clasebase
 {
     public int a;
     public clasebase()
@@ -41,7 +42,8 @@ class ejemplo
         Console.Write("Suma = " + objderivada2.calculasuma(5));
         Console.Write("Suma = " + objderivada2.calculasuma(5));
     }
-}*/
+}
+Ejemplo 2
 public abstract class clasebase
 {
     public int calculasuma(int x, int y)
@@ -76,5 +78,39 @@ public class ejemplo
         Console.WriteLine("Calcula suma " + objderivado1.calculasuma(10, 5));
         Console.WriteLine("calcula rest " + objderivado1.calcularesta(10, 5));
         Console.WriteLine("calcula multiplicacon " + objderivado1.calculamultiplicacion(10, 5));
+    }
+}*/
+//Ejemplo 3
+public abstract class clasebase
+{
+    public virtual int calculamultiplicacion(int x, int y) //metodo virtual
+    {
+        int res = x * y;
+        return res;
+    }
+}
+
+public sealed class clasederivada1 : clasebase
+{
+    public sealed int calculamultiplicacion(int x, int y)
+    {
+        int mult = (x * y) * 2;
+        return mult;
+    }
+}
+public class clasederivada2 : clasederivada1 // cuando se sella una clase, no se puede derivar
+{
+    public int calculamultiplicacion1(int x, int y)
+    {
+        int mult = (x * y) * 2;
+        return mult;
+    }
+}
+public class ejemplo
+{
+    public static void Main()
+    {
+        clasederivada1 objderivado1 = new clasederivada1();
+        Console.WriteLine("Calcula multiplicacion = " + objderivado1.calculamultiplicacion(10, 5));
     }
 }

@@ -1,0 +1,22 @@
+using System;
+
+class convertFaC 
+{
+    float input;
+    public float output;
+
+    public convertFaC()
+    {
+        Console.WriteLine("Digite la temperatura en grados Farenheit");
+        input = float.Parse(Console.ReadLine());
+        output = (input - 32) * 5 / 9;
+    }
+}
+class program
+{
+    static void Main()
+    {
+        convertFaC convert = new convertFaC();
+        Console.WriteLine("La temperatura en grados celsius es: " + Math.Round(convert.output));
+     }
+}
