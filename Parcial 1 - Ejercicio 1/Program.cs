@@ -2,9 +2,9 @@
 
 class persona
 {
-    int cedula;
+    long cedula;
     string nombre;
-    int edad;
+    int  edad;
     char sexo;
     public persona()//Constructor para inicializar las propiedades
     {
@@ -14,7 +14,7 @@ class persona
             try
             {
                 Console.WriteLine("Digite la cédula de la persona");
-                cedula = int.Parse(Console.ReadLine());
+                cedula = long.Parse(Console.ReadLine());
             }
             catch
             {
