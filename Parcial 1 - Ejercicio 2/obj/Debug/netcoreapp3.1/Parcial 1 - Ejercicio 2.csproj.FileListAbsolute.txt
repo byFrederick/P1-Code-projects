@@ -1,0 +1,13 @@
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial 1 - Ejercicio 2\bin\Debug\netcoreapp3.1\Parcial 1 - Ejercicio 2.exe
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial 1 - Ejercicio 2\bin\Debug\netcoreapp3.1\Parcial 1 - Ejercicio 2.deps.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial 1 - Ejercicio 2\bin\Debug\netcoreapp3.1\Parcial 1 - Ejercicio 2.runtimeconfig.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial 1 - Ejercicio 2\bin\Debug\netcoreapp3.1\Parcial 1 - Ejercicio 2.runtimeconfig.dev.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial 1 - Ejercicio 2\bin\Debug\netcoreapp3.1\Parcial 1 - Ejercicio 2.dll
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial 1 - Ejercicio 2\bin\Debug\netcoreapp3.1\Parcial 1 - Ejercicio 2.pdb
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial 1 - Ejercicio 2\obj\Debug\netcoreapp3.1\Parcial 1 - Ejercicio 2.csprojAssemblyReference.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial 1 - Ejercicio 2\obj\Debug\netcoreapp3.1\Parcial 1 - Ejercicio 2.AssemblyInfoInputs.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial 1 - Ejercicio 2\obj\Debug\netcoreapp3.1\Parcial 1 - Ejercicio 2.AssemblyInfo.cs
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial 1 - Ejercicio 2\obj\Debug\netcoreapp3.1\Parcial 1 - Ejercicio 2.csproj.CoreCompileInputs.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial 1 - Ejercicio 2\obj\Debug\netcoreapp3.1\Parcial 1 - Ejercicio 2.dll
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial 1 - Ejercicio 2\obj\Debug\netcoreapp3.1\Parcial 1 - Ejercicio 2.pdb
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial 1 - Ejercicio 2\obj\Debug\netcoreapp3.1\Parcial 1 - Ejercicio 2.genruntimeconfig.cache

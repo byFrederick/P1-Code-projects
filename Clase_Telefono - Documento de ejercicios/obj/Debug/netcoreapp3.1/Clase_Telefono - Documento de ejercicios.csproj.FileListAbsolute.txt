@@ -1,0 +1,13 @@
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Clase_Telefono - Documento de ejercicios\bin\Debug\netcoreapp3.1\Clase_Telefono - Documento de ejercicios.exe
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Clase_Telefono - Documento de ejercicios\bin\Debug\netcoreapp3.1\Clase_Telefono - Documento de ejercicios.deps.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Clase_Telefono - Documento de ejercicios\bin\Debug\netcoreapp3.1\Clase_Telefono - Documento de ejercicios.runtimeconfig.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Clase_Telefono - Documento de ejercicios\bin\Debug\netcoreapp3.1\Clase_Telefono - Documento de ejercicios.runtimeconfig.dev.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Clase_Telefono - Documento de ejercicios\bin\Debug\netcoreapp3.1\Clase_Telefono - Documento de ejercicios.dll
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Clase_Telefono - Documento de ejercicios\bin\Debug\netcoreapp3.1\Clase_Telefono - Documento de ejercicios.pdb
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Clase_Telefono - Documento de ejercicios\obj\Debug\netcoreapp3.1\Clase_Telefono - Documento de ejercicios.csprojAssemblyReference.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Clase_Telefono - Documento de ejercicios\obj\Debug\netcoreapp3.1\Clase_Telefono - Documento de ejercicios.AssemblyInfoInputs.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Clase_Telefono - Documento de ejercicios\obj\Debug\netcoreapp3.1\Clase_Telefono - Documento de ejercicios.AssemblyInfo.cs
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Clase_Telefono - Documento de ejercicios\obj\Debug\netcoreapp3.1\Clase_Telefono - Documento de ejercicios.csproj.CoreCompileInputs.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Clase_Telefono - Documento de ejercicios\obj\Debug\netcoreapp3.1\Clase_Telefono - Documento de ejercicios.dll
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Clase_Telefono - Documento de ejercicios\obj\Debug\netcoreapp3.1\Clase_Telefono - Documento de ejercicios.pdb
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Clase_Telefono - Documento de ejercicios\obj\Debug\netcoreapp3.1\Clase_Telefono - Documento de ejercicios.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial_1\bin\Debug\netcoreapp3.1\Parcial_1.exe
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial_1\bin\Debug\netcoreapp3.1\Parcial_1.deps.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial_1\bin\Debug\netcoreapp3.1\Parcial_1.runtimeconfig.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial_1\bin\Debug\netcoreapp3.1\Parcial_1.runtimeconfig.dev.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial_1\bin\Debug\netcoreapp3.1\Parcial_1.dll
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial_1\bin\Debug\netcoreapp3.1\Parcial_1.pdb
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial_1\obj\Debug\netcoreapp3.1\Parcial_1.csprojAssemblyReference.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial_1\obj\Debug\netcoreapp3.1\Parcial_1.AssemblyInfoInputs.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial_1\obj\Debug\netcoreapp3.1\Parcial_1.AssemblyInfo.cs
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial_1\obj\Debug\netcoreapp3.1\Parcial_1.csproj.CoreCompileInputs.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial_1\obj\Debug\netcoreapp3.1\Parcial_1.dll
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial_1\obj\Debug\netcoreapp3.1\Parcial_1.pdb
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial_1\obj\Debug\netcoreapp3.1\Parcial_1.genruntimeconfig.cache
