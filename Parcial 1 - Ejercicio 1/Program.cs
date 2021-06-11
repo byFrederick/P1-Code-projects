@@ -8,8 +8,6 @@ class persona
     char sexo;
     public persona()//Constructor para inicializar las propiedades
     {
-        cedula = 0;
-        edad = 0;
         while (cedula < 1) {
             try
             {

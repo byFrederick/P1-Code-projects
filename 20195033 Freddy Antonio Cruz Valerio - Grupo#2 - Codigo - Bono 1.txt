@@ -1,0 +1,198 @@
+----------------------------------------------- Grupo #2 --------------------------------------------------
+Dayán Paniagua Robles - 10138148
+Freddy Antonio Cruz Valerio - 20195033
+Eduardo Miguel Vila Cestero - 10136689
+
+-------------------------------------------- Clases y objetos --------------------------------------------- 
+
+----------------------------------------------- Ejercicio 1 -----------------------------------------------
+
+using System;
+
+class fecha
+{
+    int mes, dia, anno; 
+    public fecha(int mes, int dia, int anno)//Constructor para inicializar las tres piezas de info
+    {
+        this.mes = mes;
+        if(mes > 12 || mes < 1)
+        {
+            this.mes = 1;
+        }
+        this.dia = dia;
+        this.anno = anno;
+    }
+    public void obtenerDatos()//Método para obtener los datos de la fecha
+    {
+        Console.WriteLine("Digite el mes");
+        mes = int.Parse(Console.ReadLine());
+        if (mes > 12 || mes < 1)
+        {
+            mes = 1;
+        }
+        Console.WriteLine("Digite el dia");
+        dia = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite el año");
+        anno = int.Parse(Console.ReadLine());
+    }
+    public void desplegarDatos()//Método para desplegar los datos de la fecha
+    {
+        Console.WriteLine(mes + ", " + dia + ", " + anno);
+    }
+}
+class program
+{
+    static void Main()
+    {
+        fecha fechaobj = new fecha(13, 1, 2002);
+        fechaobj.desplegarDatos();
+    }
+}
+
+----------------------------------------------- Ejercicio 2 ----------------------------------------------- 
+
+using System;
+
+class telefono
+{
+    string modelo;
+    string fabricante;
+    float precio;
+    string propietario;
+    string bateriaModelo;
+    float tiempoInactivo;
+    float horasConversacion;
+    float pantallaTamano;
+    float pantallaColores;
+
+    public telefono()
+    {
+        Console.WriteLine("Introduzca el modelo del telefono movil");
+        modelo = Console.ReadLine();
+        Console.WriteLine("Fabricante");
+        fabricante = Console.ReadLine();
+        Console.WriteLine("Precio");
+        precio = float.Parse(Console.ReadLine());
+        Console.WriteLine("Propietario");
+        propietario = Console.ReadLine();
+        Console.WriteLine("Modelo de la bateria");
+        bateriaModelo = Console.ReadLine();
+        Console.WriteLine("Introduzca el tiempo de inactividad");
+        tiempoInactivo = float.Parse(Console.ReadLine());
+        Console.WriteLine("Horas de conversacion");
+        horasConversacion = float.Parse(Console.ReadLine());
+        Console.WriteLine("Introduzca el tamano de la pantalla");
+        pantallaTamano = float.Parse(Console.ReadLine());
+        Console.WriteLine("Introduzca la cantidad de colores de la pantalla");
+        pantallaColores = float.Parse(Console.ReadLine());
+    }
+}
+class program
+{
+    static void Main()
+    {
+        telefono telefonoobj = new telefono();
+    }
+}
+
+----------------------------------------------- Herencia --------------------------------------------------  
+
+----------------------------------------------- Ejercicio 1 ----------------------------------------------- 
+
+using System;
+
+class publicacion
+{
+    public string titulo;
+    public float precio;
+    public publicacion()
+    {
+        Console.WriteLine("Introduzca el titulo de la publicacion");
+        titulo = Console.ReadLine();
+        Console.WriteLine("Precio de la publicacion");
+        precio = float.Parse(Console.ReadLine());
+    }
+}
+class libro : publicacion
+{
+    public int numPaginas;
+    public libro()
+    {
+        Console.WriteLine("Digite el numero de páginas para el libro de la publicacio");
+        numPaginas = int.Parse(Console.ReadLine());
+    }
+}
+class cd : publicacion
+{
+    public float timeLength;
+    public cd()
+    {
+        Console.WriteLine("Digite el tiempo de reproducción para el audio-libro de la publicacion");
+        timeLength = float.Parse(Console.ReadLine());
+    }
+}
+class program
+{
+    static void Main()
+    {
+        libro librobj = new libro();
+        cd cdobj = new cd();
+        
+    }
+}
+
+----------------------------------------------- Ejercicio 2 -----------------------------------------------
+
+using System;
+
+class autos
+{
+    public string numSerieMotor;
+    public string marca;
+    public int anno;
+    public float precio;
+    public autos()
+    {
+        Console.WriteLine("Digite el numero de serie del motor");
+        numSerieMotor = Console.ReadLine();
+        Console.WriteLine("Marca del auto");
+        marca = Console.ReadLine();
+        Console.WriteLine("Año del vehiculo");
+        anno = int.Parse(Console.ReadLine());
+        Console.WriteLine("Precio del auto");
+        precio = float.Parse(Console.ReadLine());
+    }
+}
+class autos_vagonetas : autos
+{
+    public string cantPasajeros;
+    public autos_vagonetas()
+    {
+        Console.WriteLine("Digite la cantidad de pasajeros");
+        cantPasajeros = Console.ReadLine();
+    }
+}
+class camionetas : autos
+{
+    public int cantCarga;
+    public int cantEjes;
+    public int rodado;
+    public camionetas()
+    {
+        Console.WriteLine("Digite la capacidad de carga en Kg");
+        cantCarga = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite la cantidad de ejes de su vehiculo");
+        cantEjes = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite el rodado de los neumáticos ");
+        rodado = int.Parse(Console.ReadLine());
+    }
+}
+class program
+{
+    static void Main()
+    {
+        autos_vagonetas auto_vagonetasobj = new autos_vagonetas();
+        Console.WriteLine("");
+        camionetas camionetasobj = new camionetas();
+    }
+}

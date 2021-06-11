@@ -11,6 +11,11 @@ class publicacion
         Console.WriteLine("Precio de la publicacion");
         precio = float.Parse(Console.ReadLine());
     }
+    public void MostrarPublicacion()
+    {
+        Console.WriteLine("Titulo: " + titulo);
+        Console.WriteLine("Precio: " + precio);
+    }
 }
 class libro : publicacion
 {
@@ -19,6 +24,11 @@ class libro : publicacion
     {
         Console.WriteLine("Digite el numero de páginas para el libro de la publicacion");
         numPaginas = int.Parse(Console.ReadLine());
+    }
+    public void MostrarLibro()
+    {
+        Console.WriteLine("Num paginas: " + numPaginas);
+
     }
 }
 class cd : publicacion
@@ -29,13 +39,20 @@ class cd : publicacion
         Console.WriteLine("Digite el tiempo de reproducción para el audio-libro de la publicacion");
         timeLength = float.Parse(Console.ReadLine());
     }
+    public void MostrarCD()
+    {
+        Console.WriteLine("Tiempo: " + timeLength);
+
+    }
 }
 class program
 {
     static void Main()
     {
-        libro librobj = new libro();
-        cd cdobj = new cd();
-        
+        libro libroobj = new libro();
+        Console.WriteLine("");
+        libroobj.MostrarPublicacion();
+        libroobj.MostrarLibro();
+
     }
 }
