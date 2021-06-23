@@ -8,24 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\fredd\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Dayan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fredd\\OneDrive\\Escritorio\\Universidad\\Sexto cuatrimestre\\P1\\P1-Code-projects\\Bono excepcion 1\\Bono excepcion 1.csproj",
+      "projectUniqueName": "C:\\Users\\Dayan\\Documents\\GitHub\\P1-Code-projects\\Bono excepcion 1\\Bono excepcion 1.csproj",
       "projectName": "Bono excepcion 1",
-      "projectPath": "C:\\Users\\fredd\\OneDrive\\Escritorio\\Universidad\\Sexto cuatrimestre\\P1\\P1-Code-projects\\Bono excepcion 1\\Bono excepcion 1.csproj",
-      "packagesPath": "C:\\Users\\fredd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fredd\\OneDrive\\Escritorio\\Universidad\\Sexto cuatrimestre\\P1\\P1-Code-projects\\Bono excepcion 1\\obj\\",
+      "projectPath": "C:\\Users\\Dayan\\Documents\\GitHub\\P1-Code-projects\\Bono excepcion 1\\Bono excepcion 1.csproj",
+      "packagesPath": "C:\\Users\\Dayan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dayan\\Documents\\GitHub\\P1-Code-projects\\Bono excepcion 1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\fredd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Dayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
