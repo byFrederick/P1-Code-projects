@@ -2,14 +2,32 @@
 
 class publicacion
 {
-    public string titulo;
-    public float precio;
+    string titulo;
+    float precio;
     public publicacion()
     {
-        Console.WriteLine("Introduzca el titulo de la publicacion");
-        titulo = Console.ReadLine();
-        Console.WriteLine("Precio de la publicacion");
-        precio = float.Parse(Console.ReadLine());
+        while(string.IsNullOrEmpty(titulo) == true)
+        { 
+            Console.WriteLine("Introduzca el titulo de la publicacion");
+            titulo = Console.ReadLine();
+            if(string.IsNullOrEmpty(titulo) == true)
+            {
+                Console.WriteLine("\nDigite un titulo valido\n");
+            }
+        }
+        while(precio < 0.01)
+        {
+            try
+            {
+                Console.WriteLine("Precio de la publicacion");
+                precio = float.Parse(Console.ReadLine());
+            }
+            catch
+            {
+                Console.WriteLine("\nDigite un precio valido\n");
+            }
+        }
+        
     }
     public void MostrarPublicacion()
     {
@@ -17,21 +35,33 @@ class publicacion
         Console.WriteLine("Precio: " + precio);
     }
 }
-class libro : publicacion
+sealed class libro : publicacion
 {
-    public int numPaginas;
+    int numPaginas;
     public libro()
     {
-        Console.WriteLine("Digite el numero de páginas para el libro de la publicacion");
-        numPaginas = int.Parse(Console.ReadLine());
+        while(numPaginas < 1)
+        {
+            try
+            {
+                Console.WriteLine("Digite el numero de páginas para el libro de la publicacion");
+                numPaginas = int.Parse(Console.ReadLine());
+            }
+            catch
+            {
+                Console.WriteLine("\nDigite un numero de paginas valido\n");
+            }
+            
+        }
+        
     }
-    public void MostrarLibro()
+    public void MostrarPublicacion()
     {
         Console.WriteLine("Num paginas: " + numPaginas);
 
     }
 }
-class cd : publicacion
+sealed class cd : publicacion
 {
     public float timeLength;
     public cd()
@@ -45,14 +75,13 @@ class cd : publicacion
 
     }
 }
+
 class program
 {
     static void Main()
     {
         libro libroobj = new libro();
-        Console.WriteLine("");
         libroobj.MostrarPublicacion();
-        libroobj.MostrarLibro();
-
+        
     }
 }

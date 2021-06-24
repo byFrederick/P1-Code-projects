@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fredd\\OneDrive\\Escritorio\\Universidad\\Sexto cuatrimestre\\P1\\P1-Code-projects\\Bono excepcion 1\\Bono excepcion 1.csproj": {}
+    "C:\\Users\\fredd\\OneDrive\\Escritorio\\Universidad\\Sexto cuatrimestre\\P1\\P1-Code-projects\\Parcial2 ejercicio 1\\Parcial2 ejercicio 1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fredd\\OneDrive\\Escritorio\\Universidad\\Sexto cuatrimestre\\P1\\P1-Code-projects\\Bono excepcion 1\\Bono excepcion 1.csproj": {
+    "C:\\Users\\fredd\\OneDrive\\Escritorio\\Universidad\\Sexto cuatrimestre\\P1\\P1-Code-projects\\Parcial2 ejercicio 1\\Parcial2 ejercicio 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fredd\\OneDrive\\Escritorio\\Universidad\\Sexto cuatrimestre\\P1\\P1-Code-projects\\Bono excepcion 1\\Bono excepcion 1.csproj",
-        "projectName": "Bono excepcion 1",
-        "projectPath": "C:\\Users\\fredd\\OneDrive\\Escritorio\\Universidad\\Sexto cuatrimestre\\P1\\P1-Code-projects\\Bono excepcion 1\\Bono excepcion 1.csproj",
+        "projectUniqueName": "C:\\Users\\fredd\\OneDrive\\Escritorio\\Universidad\\Sexto cuatrimestre\\P1\\P1-Code-projects\\Parcial2 ejercicio 1\\Parcial2 ejercicio 1.csproj",
+        "projectName": "Parcial2 ejercicio 1",
+        "projectPath": "C:\\Users\\fredd\\OneDrive\\Escritorio\\Universidad\\Sexto cuatrimestre\\P1\\P1-Code-projects\\Parcial2 ejercicio 1\\Parcial2 ejercicio 1.csproj",
         "packagesPath": "C:\\Users\\fredd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fredd\\OneDrive\\Escritorio\\Universidad\\Sexto cuatrimestre\\P1\\P1-Code-projects\\Bono excepcion 1\\obj\\",
+        "outputPath": "C:\\Users\\fredd\\OneDrive\\Escritorio\\Universidad\\Sexto cuatrimestre\\P1\\P1-Code-projects\\Parcial2 ejercicio 1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

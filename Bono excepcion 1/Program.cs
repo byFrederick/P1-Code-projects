@@ -47,7 +47,7 @@ class BiberonesMes
     public void CalcularBiberonesMes()
     {
         resultado = hijos * biberoneDiario;
-        Console.WriteLine($"El numero de biberones al mes que consume(n) su(s) hijo(s) es {resultado*30} ");
+        Console.WriteLine($"El numero de biberones al mes que consume(n) su(s) hijo(s) es {resultado*30}");
     }
 }
 class Program
