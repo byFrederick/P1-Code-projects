@@ -1,0 +1,226 @@
+---------- Grupo #2 ----------
+Dayan Paniagua Robles - 20195025
+Freddy Antonio Cruz Valerio - 20195033
+
+---------- Ejercicio 1 ----------
+using System;
+
+class publicacion
+{
+    string titulo;
+    float precio;
+    public publicacion()
+    {
+        while (string.IsNullOrEmpty(titulo) == true)
+        {
+            Console.WriteLine("Introduzca el titulo de la publicacion");
+            titulo = Console.ReadLine();
+            if (string.IsNullOrEmpty(titulo) == true)
+            {
+                Console.WriteLine("Digite un titulo valido\n");
+            }
+        }
+        while (precio < 0.01)
+        {
+            try
+            {
+                Console.WriteLine("Precio de la publicacion");
+                precio = float.Parse(Console.ReadLine());
+            }
+            catch
+            {
+                Console.WriteLine("Digite un precio valido\n");
+            }
+        }
+    }
+    public void MostrarPublicacion()
+    {
+        Console.WriteLine("Titulo: " + titulo);
+        Console.WriteLine("Precio: " + precio);
+    }
+    public virtual void IngresarDatos()
+    {
+
+    }
+}
+sealed class libro : publicacion
+{
+    int numPaginas;
+    public libro()
+    {
+        while (numPaginas < 1)
+        {
+            try
+            {
+                Console.WriteLine("Digite el numero de páginas para el libro de la publicacion");
+                numPaginas = int.Parse(Console.ReadLine());
+            }
+            catch
+            {
+                Console.WriteLine("Digite un numero de paginas valido\n");
+            }
+
+        }
+    }
+    public void MostrarLibro()
+    {
+        Console.WriteLine("Num paginas: " + numPaginas);
+
+    }
+    
+}
+sealed class cd : publicacion
+{
+    float timeLength;
+    public cd()
+    {
+        while(timeLength < 0.01)
+        {
+            try
+            {
+                Console.WriteLine("Digite el tiempo de reproducción para el audio-libro de la publicacion");
+                timeLength = float.Parse(Console.ReadLine());
+            }
+            catch
+            {
+                Console.WriteLine("Digite un tiempo de duracion valido\n");
+            }
+        }
+        
+    }
+    public void MostrarCD()
+    {
+        Console.WriteLine("Tiempo: " + timeLength);
+
+    }
+}
+
+class program
+{
+    static void Main()
+    {
+        int seguir = 1;
+        while(seguir == 1)
+        {
+            libro libroobj = new libro();
+            seguir = 0;
+            libroobj.MostrarPublicacion();
+            libroobj.MostrarLibro();
+            try
+            {
+                Console.WriteLine("\nIntroduzca el numero 1 para ingresar mas datos\nIntroduzca cualquier otro numero para finalizar");
+                seguir = int.Parse(Console.ReadLine());
+            }
+            catch
+            {
+                Console.WriteLine("Digite una opcion valida");
+            }
+            Console.WriteLine("\n\n");
+        }
+    }
+}
+
+---------- Ejercicio 2 ----------
+using System;
+
+abstract class Cuadrilatero
+{
+    public float lado1;
+    public float area;
+    public Cuadrilatero()
+    {
+        while(lado1 < 0.01)
+        {
+            try
+            {
+                Console.WriteLine("Digite el valor del lado 1");
+                lado1 = float.Parse(Console.ReadLine());
+            }
+            catch
+            {
+                Console.WriteLine("Digite un valor válido\n");
+            }
+        }
+        area = 0;
+    }
+    public virtual void CalcularArea() { }
+}
+class Cuadrado : Cuadrilatero
+{
+    public override void CalcularArea()
+    {
+        area = lado1 * lado1;
+        Console.WriteLine("El área del cuadrado es " + area);
+    }
+}
+class Rectangulo : Cuadrado
+{
+    public float lado2;
+    public Rectangulo()
+    {
+        while (lado2 < 0.01 || lado1 == lado2)
+        {
+            try
+            {
+                Console.WriteLine("Digite el valor del lado 2 (No puede ser igual al lado 1)");
+                lado2 = float.Parse(Console.ReadLine());
+            }
+            catch
+            {
+                Console.WriteLine("Digite un valor válido\n");
+            }
+        }
+    }
+    public override void CalcularArea()
+    {
+        area = lado1 * lado2;
+        Console.WriteLine("El área del rectángulo es " + area);
+    }
+}
+class Trapecio : Rectangulo
+{
+    public float lado3;
+    public Trapecio(float lado3)
+    {
+        if (lado3 < 0.01 )
+        {
+            {
+                while (this.lado3 < 0.01)
+                {
+                    try
+                    {
+                        Console.WriteLine("Digite el valor de la altura");
+                        this.lado3 = float.Parse(Console.ReadLine());
+                    }
+                    catch
+                    {
+                        Console.WriteLine("Digite un valor válido\n");
+                    }
+                }
+            }
+        } else
+        {
+            this.lado3 = lado3;
+            Console.WriteLine("El valor de la altura de su trapecio es " + this.lado3);
+        } 
+    }
+    public override void CalcularArea()
+    {
+        area = ((lado1 + lado2) / 2) * lado3;
+        Console.WriteLine("El área del trapecio es " + area);
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Cuadrado cuadradobj = new Cuadrado();
+        cuadradobj.CalcularArea();
+        Console.WriteLine("");
+        Rectangulo rectangulobj = new Rectangulo();
+        rectangulobj.CalcularArea();
+        Console.WriteLine("");
+        Trapecio trapeciobj = new Trapecio(0);
+        trapeciobj.CalcularArea();
+    }
+}

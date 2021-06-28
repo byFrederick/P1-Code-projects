@@ -27,12 +27,15 @@ class publicacion
                 Console.WriteLine("Digite un precio valido\n");
             }
         }
-
     }
     public void MostrarPublicacion()
     {
         Console.WriteLine("Titulo: " + titulo);
         Console.WriteLine("Precio: " + precio);
+    }
+    public virtual void IngresarDatos()
+    {
+
     }
 }
 sealed class libro : publicacion
@@ -53,13 +56,13 @@ sealed class libro : publicacion
             }
 
         }
-
     }
     public void MostrarLibro()
     {
         Console.WriteLine("Num paginas: " + numPaginas);
 
     }
+    
 }
 sealed class cd : publicacion
 {
@@ -91,11 +94,10 @@ class program
 {
     static void Main()
     {
-        libro libroobj = new libro();
-        
         int seguir = 1;
         while(seguir == 1)
         {
+            libro libroobj = new libro();
             seguir = 0;
             libroobj.MostrarPublicacion();
             libroobj.MostrarLibro();
