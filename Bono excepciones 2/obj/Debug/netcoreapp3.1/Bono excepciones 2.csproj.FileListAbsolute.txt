@@ -1,0 +1,13 @@
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Bono excepciones 2\obj\Debug\netcoreapp3.1\Bono excepciones 2.csprojAssemblyReference.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Bono excepciones 2\obj\Debug\netcoreapp3.1\Bono excepciones 2.AssemblyInfoInputs.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Bono excepciones 2\obj\Debug\netcoreapp3.1\Bono excepciones 2.AssemblyInfo.cs
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Bono excepciones 2\obj\Debug\netcoreapp3.1\Bono excepciones 2.csproj.CoreCompileInputs.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Bono excepciones 2\bin\Debug\netcoreapp3.1\Bono excepciones 2.exe
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Bono excepciones 2\bin\Debug\netcoreapp3.1\Bono excepciones 2.deps.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Bono excepciones 2\bin\Debug\netcoreapp3.1\Bono excepciones 2.runtimeconfig.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Bono excepciones 2\bin\Debug\netcoreapp3.1\Bono excepciones 2.runtimeconfig.dev.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Bono excepciones 2\bin\Debug\netcoreapp3.1\Bono excepciones 2.dll
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Bono excepciones 2\bin\Debug\netcoreapp3.1\Bono excepciones 2.pdb
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Bono excepciones 2\obj\Debug\netcoreapp3.1\Bono excepciones 2.dll
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Bono excepciones 2\obj\Debug\netcoreapp3.1\Bono excepciones 2.pdb
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Bono excepciones 2\obj\Debug\netcoreapp3.1\Bono excepciones 2.genruntimeconfig.cache

@@ -16,10 +16,18 @@ class BiberonesMes
             {
                 Console.WriteLine("Introduzca el numero de hijos");
                 hijos = int.Parse(Console.ReadLine());
+                if(hijos < 1)
+                {
+                    throw new ArgumentException("El numero de hijos no puede ser menor a 1");
+                }
             }
-            catch
+            catch (ArgumentException e)
             {
-                Console.WriteLine("Digite un numero de hijos valido");
+                Console.WriteLine(e.Message);
+            }
+            catch(FormatException e)
+            {
+                Console.WriteLine(e.Message);
             }
         }
         while (biberoneDiario < 1)
@@ -29,9 +37,9 @@ class BiberonesMes
                 Console.WriteLine("Introduzca el numero de biberones diarios (Si no digitas un numero valido, se colocara 1 por defecto)");
                 biberoneDiario = int.Parse(Console.ReadLine());
             }
-            catch
+            catch(Exception e)
             {
-                Console.WriteLine("Se pondrá 1 como numero de biberones");
+                Console.WriteLine(e.Message);
             }
             finally
             {

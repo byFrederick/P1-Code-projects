@@ -1,65 +1,91 @@
 ﻿using System;
 
-/*
-    Escriba una clase Cita para controlar la agenda de un médico. La clase tendrá los
-    siguientes atributos y sus respectivas propiedades:
-    a) Día de la semana (ejemplo: lunes).
-    b) Hora (Entero entre 0 y 23)
-    c) Minuto (Entero entre 0 y 59)
-    d) Descripción de la cita (cadena)
-
-    Agregue un constructor que reciba como parámetros todos los datos de la cita. Si el 
-    día, hora ó minuto no son válidos, entonces el constructor provocará una excepción de 
-    tipo ArgumentException.
-*/
-
 class Cita
 {
     string diaSemana;
     int hora;
     int minuto;
-    string descripcionCita;
-    public Cita(string diaS, int hor, int min, string descrip)
+    string descripcion;
+    public Cita(string diaSemana, int hora, int minuto, string descripcion)
     {
-        if(diaS != "lunes" || diaS != "martes" || diaS != "miercoles" || diaS != "jueves" || diaS != "viernes" ||
-            diaSemana != "sabado")
+        try
         {
-            try
+            if (diaSemana == "lunes" || diaSemana == "martes" || diaSemana == "miercoles" || diaSemana == "jueves" || diaSemana == "viernes" ||
+                diaSemana == "sabado" || diaSemana == "domingo")
             {
-                diaSemana = diaS;
+                this.diaSemana = diaSemana;
             }
-            catch(ArgumentException ex)
+            else
             {
-                Console.WriteLine(ex);
+                this.diaSemana = "Vacio";
+                throw new ArgumentException("El dia de la semana introducido no es válido\n");
             }
         }
-        if(hora < 0 || hora > 23)
+        catch (ArgumentException e)
         {
-            try
+            Console.WriteLine(e.Message);
+        }
+        try
+        {
+            if (hora < 0 || hora > 23)
             {
-                hora = int.Parse(Console.ReadLine());
+                this.hora = 0;
+                throw new ArgumentException("La hora introducida no es válida\n");
             }
-            catch
+            else
             {
-                Console.WriteLine("Debe digitar un numero válido");
+                this.hora = hora;
             }
         }
-         if(minuto < 1 || minuto > 58)
+        catch (ArgumentException e)
         {
-            try
+            Console.WriteLine(e.Message);
+        }
+        try
+        {
+            if (minuto < 0 || minuto > 59)
             {
-                Console.WriteLine("Digite la hora (Debe estar dentro de 0 y 59)");
-                hora = int.Parse(Console.ReadLine());
+                this.minuto = 0;
+                throw new ArgumentException("El minuto introducida no es válido\n");
             }
-            catch
+            else
             {
-                Console.WriteLine("Debe digitar un numero válido");
+                this.minuto = minuto;
             }
         }
-        while (string.IsNullOrEmpty(descripcionCita))
+        catch (ArgumentException e)
         {
-            Console.WriteLine("Digite una descripcion para la cita");
-            descripcionCita = Console.ReadLine();
+            Console.WriteLine(e.Message);
         }
+        try
+        {
+            if (string.IsNullOrEmpty(descripcion) == true)
+            {
+                this.descripcion = "Vacío";
+                throw new ArgumentException("La descripcion introducida no es válida\n");
+            }
+            else
+            {
+                this.descripcion = descripcion;
+            }
+        }
+        catch (ArgumentException e)
+        {
+            Console.WriteLine(e.Message);
+        }
+
+    }
+    public void DesplegarDatos()
+    {
+        Console.WriteLine("Datos de la cita\n\nDía de la semana: {0}\nHora: {1}\nMinuto: {2}\nDescripción de la cita: {3}",
+            diaSemana, hora, minuto, descripcion);
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Cita citaobj = new Cita("vierne", 14, 30, "Chequeo de prostata");
+        citaobj.DesplegarDatos();
     }
 }
