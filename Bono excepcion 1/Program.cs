@@ -1,8 +1,5 @@
 ﻿using System;
 
-/* Escribir un programa que controle al menos 2 tipos de excepciones y contenga la sentencia 
-  finally (el programa debe ser diferente a los ejemplos realizados en clase).*/
-
 class BiberonesMes 
 {
     int hijos;
@@ -49,7 +46,6 @@ class BiberonesMes
                 }
             }
         }
-        
         resultado = 0;
     }
     public void CalcularBiberonesMes()
