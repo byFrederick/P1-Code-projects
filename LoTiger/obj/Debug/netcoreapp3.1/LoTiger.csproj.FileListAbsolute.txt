@@ -1,0 +1,13 @@
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\LoTiger\bin\Debug\netcoreapp3.1\LoTiger.exe
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\LoTiger\bin\Debug\netcoreapp3.1\LoTiger.deps.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\LoTiger\bin\Debug\netcoreapp3.1\LoTiger.runtimeconfig.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\LoTiger\bin\Debug\netcoreapp3.1\LoTiger.runtimeconfig.dev.json
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\LoTiger\bin\Debug\netcoreapp3.1\LoTiger.dll
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\LoTiger\bin\Debug\netcoreapp3.1\LoTiger.pdb
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\LoTiger\obj\Debug\netcoreapp3.1\LoTiger.csprojAssemblyReference.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\LoTiger\obj\Debug\netcoreapp3.1\LoTiger.AssemblyInfoInputs.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\LoTiger\obj\Debug\netcoreapp3.1\LoTiger.AssemblyInfo.cs
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\LoTiger\obj\Debug\netcoreapp3.1\LoTiger.csproj.CoreCompileInputs.cache
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\LoTiger\obj\Debug\netcoreapp3.1\LoTiger.dll
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\LoTiger\obj\Debug\netcoreapp3.1\LoTiger.pdb
+C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\LoTiger\obj\Debug\netcoreapp3.1\LoTiger.genruntimeconfig.cache
