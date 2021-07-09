@@ -1,4 +1,9 @@
-﻿using System;
+------------ Grupo #2 ----------
+Dayan Paniagua Robles - 20195025
+Freddy Antonio Cruz Valerio - 20195033
+
+---------- Código ----------
+using System;
 
 abstract class split
 {
