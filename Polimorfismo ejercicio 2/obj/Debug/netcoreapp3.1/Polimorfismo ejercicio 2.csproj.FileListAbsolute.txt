@@ -1,0 +1,13 @@
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Polimorfismo ejercicio 2\bin\Debug\netcoreapp3.1\Polimorfismo ejercicio 2.exe
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Polimorfismo ejercicio 2\bin\Debug\netcoreapp3.1\Polimorfismo ejercicio 2.deps.json
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Polimorfismo ejercicio 2\bin\Debug\netcoreapp3.1\Polimorfismo ejercicio 2.runtimeconfig.json
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Polimorfismo ejercicio 2\bin\Debug\netcoreapp3.1\Polimorfismo ejercicio 2.runtimeconfig.dev.json
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Polimorfismo ejercicio 2\bin\Debug\netcoreapp3.1\Polimorfismo ejercicio 2.dll
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Polimorfismo ejercicio 2\bin\Debug\netcoreapp3.1\Polimorfismo ejercicio 2.pdb
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Polimorfismo ejercicio 2\obj\Debug\netcoreapp3.1\Polimorfismo ejercicio 2.csprojAssemblyReference.cache
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Polimorfismo ejercicio 2\obj\Debug\netcoreapp3.1\Polimorfismo ejercicio 2.AssemblyInfoInputs.cache
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Polimorfismo ejercicio 2\obj\Debug\netcoreapp3.1\Polimorfismo ejercicio 2.AssemblyInfo.cs
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Polimorfismo ejercicio 2\obj\Debug\netcoreapp3.1\Polimorfismo ejercicio 2.csproj.CoreCompileInputs.cache
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Polimorfismo ejercicio 2\obj\Debug\netcoreapp3.1\Polimorfismo ejercicio 2.dll
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Polimorfismo ejercicio 2\obj\Debug\netcoreapp3.1\Polimorfismo ejercicio 2.pdb
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Polimorfismo ejercicio 2\obj\Debug\netcoreapp3.1\Polimorfismo ejercicio 2.genruntimeconfig.cache

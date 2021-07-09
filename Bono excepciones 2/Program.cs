@@ -85,7 +85,7 @@ class Program
 {
     static void Main()
     {
-        Cita citaobj = new Cita("vierne", 14, 30, "Chequeo de prostata");
+        Cita citaobj = new Cita("lunes", 14, 30, "Chequeo de prostata");
         citaobj.DesplegarDatos();
     }
 }
