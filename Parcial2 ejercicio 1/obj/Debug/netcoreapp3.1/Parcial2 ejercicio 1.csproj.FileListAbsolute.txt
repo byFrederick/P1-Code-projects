@@ -11,3 +11,16 @@ C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-pro
 C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial2 ejercicio 1\obj\Debug\netcoreapp3.1\Parcial2 ejercicio 1.dll
 C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial2 ejercicio 1\obj\Debug\netcoreapp3.1\Parcial2 ejercicio 1.pdb
 C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Parcial2 ejercicio 1\obj\Debug\netcoreapp3.1\Parcial2 ejercicio 1.genruntimeconfig.cache
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Parcial2 ejercicio 1\bin\Debug\netcoreapp3.1\Parcial2 ejercicio 1.exe
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Parcial2 ejercicio 1\bin\Debug\netcoreapp3.1\Parcial2 ejercicio 1.deps.json
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Parcial2 ejercicio 1\bin\Debug\netcoreapp3.1\Parcial2 ejercicio 1.runtimeconfig.json
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Parcial2 ejercicio 1\bin\Debug\netcoreapp3.1\Parcial2 ejercicio 1.runtimeconfig.dev.json
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Parcial2 ejercicio 1\bin\Debug\netcoreapp3.1\Parcial2 ejercicio 1.dll
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Parcial2 ejercicio 1\bin\Debug\netcoreapp3.1\Parcial2 ejercicio 1.pdb
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Parcial2 ejercicio 1\obj\Debug\netcoreapp3.1\Parcial2 ejercicio 1.csprojAssemblyReference.cache
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Parcial2 ejercicio 1\obj\Debug\netcoreapp3.1\Parcial2 ejercicio 1.AssemblyInfoInputs.cache
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Parcial2 ejercicio 1\obj\Debug\netcoreapp3.1\Parcial2 ejercicio 1.AssemblyInfo.cs
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Parcial2 ejercicio 1\obj\Debug\netcoreapp3.1\Parcial2 ejercicio 1.csproj.CoreCompileInputs.cache
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Parcial2 ejercicio 1\obj\Debug\netcoreapp3.1\Parcial2 ejercicio 1.dll
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Parcial2 ejercicio 1\obj\Debug\netcoreapp3.1\Parcial2 ejercicio 1.pdb
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Parcial2 ejercicio 1\obj\Debug\netcoreapp3.1\Parcial2 ejercicio 1.genruntimeconfig.cache

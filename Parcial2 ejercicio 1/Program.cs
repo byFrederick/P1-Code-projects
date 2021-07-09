@@ -47,12 +47,12 @@ sealed class libro : publicacion
         {
             try
             {
-                Console.WriteLine("Digite el numero de páginas para el libro de la publicacion");
+                Console.WriteLine("Digite el número de páginas para el libro de la publicacion");
                 numPaginas = int.Parse(Console.ReadLine());
             }
             catch
             {
-                Console.WriteLine("Digite un numero de paginas valido\n");
+                Console.WriteLine("Digite un número de paginas valido\n");
             }
 
         }
@@ -73,12 +73,12 @@ sealed class cd : publicacion
         {
             try
             {
-                Console.WriteLine("Digite el tiempo de reproducción para el audio-libro de la publicacion");
+                Console.WriteLine("Digite el tiempo de reproducción para el audio-libro de la publicación");
                 timeLength = float.Parse(Console.ReadLine());
             }
             catch
             {
-                Console.WriteLine("Digite un tiempo de duracion valido\n");
+                Console.WriteLine("Digite un tiempo de duración valido\n");
             }
         }
         

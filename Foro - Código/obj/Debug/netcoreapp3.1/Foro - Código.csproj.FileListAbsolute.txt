@@ -11,3 +11,16 @@ C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-pro
 C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Foro - Código\obj\Debug\netcoreapp3.1\Foro - Código.dll
 C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Foro - Código\obj\Debug\netcoreapp3.1\Foro - Código.pdb
 C:\Users\fredd\OneDrive\Escritorio\Universidad\Sexto cuatrimestre\P1\P1-Code-projects\Foro - Código\obj\Debug\netcoreapp3.1\Foro - Código.genruntimeconfig.cache
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Foro - Código\bin\Debug\netcoreapp3.1\Foro - Código.exe
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Foro - Código\bin\Debug\netcoreapp3.1\Foro - Código.deps.json
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Foro - Código\bin\Debug\netcoreapp3.1\Foro - Código.runtimeconfig.json
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Foro - Código\bin\Debug\netcoreapp3.1\Foro - Código.runtimeconfig.dev.json
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Foro - Código\bin\Debug\netcoreapp3.1\Foro - Código.dll
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Foro - Código\bin\Debug\netcoreapp3.1\Foro - Código.pdb
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Foro - Código\obj\Debug\netcoreapp3.1\Foro - Código.csprojAssemblyReference.cache
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Foro - Código\obj\Debug\netcoreapp3.1\Foro - Código.AssemblyInfoInputs.cache
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Foro - Código\obj\Debug\netcoreapp3.1\Foro - Código.AssemblyInfo.cs
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Foro - Código\obj\Debug\netcoreapp3.1\Foro - Código.csproj.CoreCompileInputs.cache
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Foro - Código\obj\Debug\netcoreapp3.1\Foro - Código.dll
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Foro - Código\obj\Debug\netcoreapp3.1\Foro - Código.pdb
+C:\Users\Dayan\Documents\GitHub\P1-Code-projects\Foro - Código\obj\Debug\netcoreapp3.1\Foro - Código.genruntimeconfig.cache
