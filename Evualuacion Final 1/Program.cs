@@ -16,7 +16,7 @@ class Hamburguesa : BurguerKing
         {
             Console.WriteLine("Digite la hamburguesa que desea pedir");
             hamburguesa = Console.ReadLine();
-            if(string.IsNullOrEmpty(hamburguesa) == true || Regex.IsMatch(hamburguesa, @"^[a-zA-Z]+$") == false)
+            if(string.IsNullOrEmpty(hamburguesa) == true || Regex.IsMatch(hamburguesa, @"[\p{L} ]+$") == false)
             {
                 throw new ArgumentException();
             }
@@ -58,7 +58,7 @@ class Extras : IngredientesExtras
             {
                 Console.WriteLine("Digite el primer ingrediente extra");
                 ingrExtra1 = Console.ReadLine();
-                if (string.IsNullOrEmpty(ingrExtra1) == true || Regex.IsMatch(ingrExtra1, @"^[a-zA-Z]+$") == false)
+                if (string.IsNullOrEmpty(ingrExtra1) == true || Regex.IsMatch(ingrExtra1, @"[\p{L} ]+$") == false)
                 {
                     throw new ArgumentException();
                 }
@@ -75,7 +75,7 @@ class Extras : IngredientesExtras
             {
                 Console.WriteLine("Digite el segundo ingrediente extra");
                 ingrExtra2 = Console.ReadLine();
-                if (string.IsNullOrEmpty(ingrExtra2) == true || Regex.IsMatch(ingrExtra2, @"^[a-zA-Z]+$") == false)
+                if (string.IsNullOrEmpty(ingrExtra2) == true || Regex.IsMatch(ingrExtra2, @"[\p{L} ]+$") == false)
                 {
                     throw new ArgumentException();
                 }
