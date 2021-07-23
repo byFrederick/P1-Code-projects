@@ -1,0 +1,308 @@
+---------- Grupo #2 ----------
+Dayan Paniagua Robles - 20195025
+Freddy Antonio Cruz Valerio - 20195033
+
+---------- Pseudocódigos ----------
+
+---------- Patrón decorador ---------
+Clase abstracta Figura
+    Método Sin Retorno Dibujar()
+Fin Clase
+
+Clase Cuadrado hereda Figura
+    Sobrescribe Dibujar()
+        Imprimir "Figura: Cuadrado"
+    Fin Método
+Fin Clase
+
+Clase Triángulo hereda Figura
+    Sobrescribe Dibujar()
+        Imprimir "Figura: Triángulo"
+    Fin Método
+Fin clase
+
+Clase abstracta DecoradorFigura hereda Figura
+    Instancia Protegida de Figura llamada FiguraDecorada
+    Constructor DecoradorFigura (Instancia de Figura llamada Figuradecorada)
+        FiguraDecorada <- Figuradecorada
+    Fin Constructo
+
+    Sobrescribe Dibujar()
+        FiguraDecorada.Dibujar()
+    Fin Método
+Fin clase
+
+Clase DecoradorFiguraAzul hereda DecoradorFigura
+    Constructor DecoradorFiguraAzul (Instancia de Figura llamada FiguraDecorada)
+        base.FiguraDecorada
+    Fin Constructor
+
+    Sobrescribe Dibujar()
+        FiguraDecorada.Dibujar()
+        establecerFiguraAzul(FiguraDecorada)
+    Fin Método
+
+    Método Sin Retorno establecerFiguraAzul(Instancia de Figura llamada FiguraDecorada)
+        Imprimir "Color de Figura: Azul"
+    Fin Método
+
+Clase Programa
+    Método Main()
+        Intancia de Figura llamada cuadrado <- nuevo Cuadrado()
+        Instancia de Figura llamada cuadradoAzul <- nuevo DecoradorFiguraAzul(nuevo Cuadrado())
+        Instancia de Figura llamada trianguloAzul <- nuevo DecoradorFiguraAzul(nuevo Triángulo())
+
+        Imprimir "Cuadrado sin color de fondo"
+        cuadrado.Dibujar()
+
+        Imprimir "Cuadrado de color azul"
+        cuadradoAzul.Dibujar()
+
+        Imprimir "Triángulo de color azul"
+        trianguloAzul.Dibujar()
+    Fin Método
+Fin clase
+
+Salida:
+
+Cuadrado sin color de fondo
+Figura: Cuadrado
+
+Cuadrado de color azul
+Figura: Cuadrado
+Color de Figura: Azul
+
+Triángulo de color azul
+Figura: Triángulo
+Color de Figura: Azul
+
+----------- Patrón compuesto ----------
+Clase abstracta Bebida
+    int calorias
+    Lista de Bebida llamada Sabores
+
+    Constructor Soda(int calorias)
+        this.calorias <- calorias 
+        Sabores <- nueva Lista de Bebida()
+    Fin Constructor
+
+    Método Sin Retorno DesplegarCalorias
+        Imprimir obtenerNombreClase + ": " + calorias + " calorias"
+        Para cada bebida en Sabores
+            bebida.DesplegarCalorias
+        Fin 
+    Fin Método
+Fin Clase
+
+Clase FresaSoda hereda Bebida
+    Constructor FresaSoda(int calorias) : base(calorias)
+    Fin Constructor
+Fin Clase
+
+Clase ManzanaSoda hereda Bebida
+    Constructor ManzanaSoda(int calorias) : base(calorias)
+    Fin Constructor
+Fin Clase
+
+Clase LimonJugo hereda Bebida
+    Constructor LimonJugo(int calorias) : base(calorias)
+    Fin Constructor
+Fin Clase
+
+Clase ChinolaJugo hereda Bebida
+    Constructor ChinolaJugo(int calorias) : base(calorias)
+    Fin Constructor
+Fin Clase
+
+Clase BebidaSoda hereda Bebida
+    Constructor BebidaSoda(int calorias) : base(calorias)
+    Fin Constructor
+Fin Clase
+
+Clase BebidaJugo hereda Bebida
+    Constructor BebidaJugo(int calorias) : base(calorias)
+    Fin Constructor
+Fin Clase
+
+Clase BebidaAgua hereda Bebida
+    Constructor BebidaAgua(int calorias) : base(calorias)
+    Fin Constructor
+Fin Clase
+
+Clase Programa
+    Método Main()
+        variable sodas = nuevo BebidaSoda(100)
+        sodas.Sabores.agregar(nuevo FresaSoda(125))
+        sodas.Sabores.agregar(nuevo ManzanaSoda(135)) 
+
+        variable jugos = nuevo BebidaJugo(75)
+        jugos.Sabores.agregar(nuevo LimonJugo(65))
+        jugos.Sabores.agregar(nuevo ChinolaJugo(85))
+
+        variable aguas = nuevo BebidaAgua(50)
+        aguas.Sabores.agregar(sodas)
+        aguas.Sabores.agregar(jugos)
+    Fin Método
+Fin Clase
+
+Salida:
+
+BebidaAgua: 50 calorias
+BebidaSoda: 100 calorias
+FresaSoda: 125 calorias
+ManzanaSoda: 135 calorias
+BebidaJugo: 75 calorias 
+LimonJugo: 65 calorias
+ChinolaJugo: 85 calorias
+
+---------- Patrón método de factoría ----------
+class WindowsBotton Extendido Dialogo is
+    Metodo CrearBoton():Button is
+        return new Button Ventana()
+
+class DialogoWeb Extendido Dialogo is
+    Metodo CreadorBoton():Button is
+        return new HTMLButton()
+interface Button is
+    Metodo render()
+    Metodo onClick(f)
+
+class WindowsButton implementa Button is
+    Metodo render(a, b) is
+
+    Metodo onClick(f) is
+class HTMLButton implementa Button is
+
+    Metodo render(a, b) is
+
+    Metodo onClick(f) is
+
+class Aplicacion is
+     Campo Dialogo: Dialogo
+
+
+    Metodo Inicializado() is
+        configuracion <- LeerConfigApp()
+
+        if (config.OS == "Ventana") then
+           Dialogo new DialogoVentana()
+        else if (config.OS == "Web") then
+            Dialogo <- new DialogoWeb()
+        else
+    throw new Ex("Error!.")
+
+    Metodo main() is
+    this.initialize()
+    Dialogo.render()
+
+---------- Patrón observador ----------
+class EventManager is
+    private field listeners: hash map of event types and listeners
+
+    method subscribe(eventType, listener) is
+        listeners.add(eventType, listener)
+
+    method unsubscribe(eventType, listener) is
+        listeners.remove(eventType, listener)
+
+    method notify(eventType, data) is
+        foreach (listener in listeners.of(eventType)) do
+            listener.update(data)
+
+class Editor is
+    public field events: EventManager
+    private field file: File
+
+    constructor Editor() is
+        events = new EventManager()
+
+    method openFile(path) is
+        this.file = new File(path)
+        events.notify("open", file.name)
+
+    method saveFile() is
+        file.write()
+        events.notify("save", file.name)
+
+interface EventListener is
+    method update(filename)
+
+class LoggingListener implements EventListener is
+    private field log: File
+    private field message
+
+    constructor LoggingListener(log_filename, message) is
+        this.log <- new File(log_filename)
+        this.message <- message
+
+    method update(filename) is
+        log.write(replace('%s',filename,message))
+
+class EmailAlertsListener implements EventListener is
+    private field email: string
+
+    constructor EmailAlertsListener(email, message) is
+        this.email <- email
+        this.message <- message
+
+    method update(filename) is
+        system.email(email, replace('%s',filename,message))
+
+class Application is
+    method config() is
+        editor = new Editor()
+
+        logger = new LoggingListener(
+            "/path/to/log.txt",
+            "Someone has opened the file: %s")
+        editor.events.subscribe("open", logger)
+
+        emailAlerts = new EmailAlertsListener(
+            "admin@example.com",
+            "Someone has changed the file: %s")
+        editor.events.subscribe("save", emailAlerts)
+
+---------- Patrón iterador ------------
+Clase RepositorioNombre hereda Contenedor
+    ArrayString nombres <- ["Pepe", "Pepito", "Firulo", "Juancito"]
+
+    Sobrescribe Iterador obtenerIterador()
+        retornar nuevo NombreIterador
+    Fin Iterador
+
+    Clase NombreIterador hereda Iterador
+        int indice
+
+        Sobrescribe buleano tieneAlLado()
+            Si indice < nombres.longitud
+                retornar verdadero
+            Fin Si
+            retornar falso
+        Fin buleano
+
+        Sobrescribe Objeto siguiente()
+            Si this.tieneAlLado()
+                retornar nombres[indice++]
+            Fin Si
+            retornar nulo
+        Fin Objeto
+    Fin Clase
+Fin Clase
+
+Clase Programa()
+    Método Main()
+        RepositorioNombre RepositorioNombres <- nuevo RepositorioNombre()
+
+        Para (Iterador iterador = RepositorioNombres.obtenerIterador(); iterador.tieneAlLado()
+            string nombre <- iterador.siguiente()
+            Imprimir "Nombre: " + nombre
+        Fin Para
+    Fin Método
+Fin Clase
+
+Salida: 
+
+Nombre: Pepe
+Nombre: Pepito
+Nombre: Firulo
+Nombre: Juancito

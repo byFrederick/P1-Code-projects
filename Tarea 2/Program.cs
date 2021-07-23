@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.IO;
 class OnlyWhiteSpaceException : Exception
 {
     public OnlyWhiteSpaceException(string str)
@@ -7,11 +7,11 @@ class OnlyWhiteSpaceException : Exception
         Console.WriteLine("Dato inválido. No se puede digitar solo espacios");
     }
 
-}
+}                                                                                                               
 abstract class Evaluacion
 {
-    string nombre, aula, instructor;
-    int creditos;
+    public string nombre, aula, instructor;
+    public int creditos;
     public Evaluacion()
     {
         while(true)
@@ -123,7 +123,7 @@ abstract class Evaluacion
 }
 class Escuela : Evaluacion
 {
-    string NombreEscuela;
+    string NombreEscuela, file;
     public Escuela()
     {
         while (true)
@@ -156,7 +156,11 @@ class Escuela : Evaluacion
                 {
                     Console.WriteLine("\nTodos los datos digitados son válidos\n");
                 }
+                file = ""
             }
+            StreamWriter File = new StreamWriter("Texto.txt");
+            File.Write("Escuela: {0}\nNombre: {1}\nAula: {2}\nCréditos: {3}\nInstructor: {4}", NombreEscuela, nombre, aula, creditos, instructor);
+            File.Close();
         }
     }
     public override void DesplegarDatos()
